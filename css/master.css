@@ -41,7 +41,7 @@ nav{
   width: 100%;
   height: 100px;
   margin-bottom: 10px;
-  background-color: lightgrey;
+  background-color: darkgrey;
 }
 
 nav > ul{
@@ -75,13 +75,12 @@ nav > ul > li {
   width: 25%;
   height: 400px;
   padding-right: 10px;
-  border-radius: 5px;
 }
 
 .blocco.due{
   width: 40%;
   height: 800px;
-  background-color: white;
+  background-color: #F5F5F5;
   margin-right: 5%;
   margin-left: 5%;
   border-radius: 5px;
@@ -89,33 +88,45 @@ nav > ul > li {
 
 .due > h2{
   padding-left: 20px;
+  color: grey;
+  text-shadow: 2px 2px 2px #191919;
 }
 
  .due > p{
   padding-top: 40px;
   padding-left: 20px;
+  text-transform: full-width;
 }
 
 .blocco.tre{
   width: 25%;
-  height: 400px;
+  height: 950px;
   padding-left: 10px;
-  border-radius: 5px;
 }
 
 .sidebarcontent div:first-child{
   height: 300px;
   margin-bottom: 10px;
-  background-color: white;
+  background-color: #F5F5F5;
+  border-radius: 5px;
 }
 
 .sidebarcontent div:nth-child(2){
   height: 300px;
-  background-color: white;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebarcontent div:nth-child(3){
+  height: 300px;
+  background-color: #F5F5F5;
+  border-radius: 5px;
 }
 
 .widget > h2{
   text-align: center;
+  color: grey;
 }
 
 .widget > p{
@@ -125,12 +136,13 @@ nav > ul > li {
 
 .sidebarcontent2{
   height: 400px;
-  background-color: white;
+  background-color: #F5F5F5;
+  border-radius: 5px;
 }
 
 .title {
   color: grey;
-  padding-bottom: 8px;
+  padding: 8px 0px 8px 8px;
 }
 
 .floatleft{
@@ -144,7 +156,7 @@ nav > ul > li {
 .wifi{
   width: 25px;
   height: 25px;
-  border-color: orange;
+  background-color: orange;
   display: inline-block;
 }
 
@@ -159,7 +171,7 @@ footer{
   background-color: blue;
   width: 100%;
   margin-top: 10px;
-  background-color: lightgrey;
+  background-color: #F5F5F5;
 }
 
 .autore{
@@ -177,6 +189,7 @@ footer{
   height: 90%;
   position: relative;
   float: left;
+  background-color: #F5F5F5;
 }
 
 .icon{
