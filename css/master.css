@@ -16,21 +16,52 @@ body{
 
 header{
   width: 100%;
-  height: 300px;
-  background-color: yellow;
-  margin-bottom: 10px;
+  height: 600px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.sfondoheader{
   background-image: url("../images/header.png");
   background-size: cover;
+  height: 100%;
   position: relative;
 }
 
-.logo{
+.imglogo{
+position:absolute;
+top:40%; /*messo 40%per spostarlo verso l'alto */
+left:50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: white;
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: red;
+}
+
+.boxnav{
+  width: calc(100% / 7);
+  /* width: calc(80% / 7); */
+  height:100px;
+  background-color: darkgrey;
+  position: relative;
+  float: left;
+}
+
+.vocemenu{
   position:absolute;
   top:50%;
   left:50%;
-  transform: translate(-50%;-50%);
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
 }
-
 
 .clearfix::after{
   content: "";
@@ -51,7 +82,16 @@ header{
 .blocco.due{
   width: 50%;
   height: 800px;
-  background-color: pink;
+  background-color: white;
+}
+
+.due > h2{
+  padding-left: 20px;
+}
+
+ .due > p{
+  padding-top: 40px;
+  padding-left: 20px;
 }
 
 .blocco.tre{
@@ -61,24 +101,78 @@ header{
 }
 
 .sidebarcontent div:first-child{
-  height: 100px;
+  height: 300px;
   margin-bottom: 10px;
-  background-color: yellow;
+  background-color: white;
 }
 
 .sidebarcontent div:nth-child(2){
   height: 300px;
-  background-color: blue;
+  background-color: white;
+}
+
+.widget > h2{
+  text-align: center;
+}
+
+.widget > p{
+  text-align: center;
+  padding-top: 10px;
 }
 
 .sidebarcontent2{
   height: 400px;
-  background-color: yellow;
+  background-color: white;
+}
+
+.title {
+  color: grey;
+  padding-bottom: 8px;
+  display:inline;
+  overflow: auto;
+}
+
+.wifi{
+  width: 50px;
+  height: 50px;
+}
+
+.sidebarcontent2 > a{
+  padding-left: 8px;
+  text-decoration: none;
+  color: green;
 }
 
 footer{
-  height: 300px;
+  height: 200px;
   background-color: blue;
   width: 100%;
   margin-top: 10px;
+  background-color: lightgrey;
+}
+
+.autore{
+  height: 10%;
+  border-bottom: gray 2px solid;
+}
+
+.autore > h4{
+  text-align: center;
+  color: grey;
+}
+
+.socialicon{
+  width: calc(100% / 3);
+  height: 90%;
+  position: relative;
+  float: left;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
